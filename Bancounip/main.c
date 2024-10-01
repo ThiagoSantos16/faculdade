@@ -12,13 +12,13 @@ char nome[30];
 system("clear");
 
 printf("Digite seu nome:");
-scanf("ls", nome);
+scanf("%s", nome);
 
 system ("clear");
 
 printf("\n");
 printf("*** Bem vindo ao Bank ***\n");
-printf("             ls", nome);
+printf("             %s", nome);
 printf("\n");
 printf("\n");
  printf("Digite 1 para saque \n");
@@ -44,7 +44,7 @@ printf("\n");
 printf("Valor do saque:");
 scanf("%d", &saque);
 
-if(saque > saldo || saque <o)
+if(saque > saldo || saque <0)
 {
 
 system("clear");
@@ -87,7 +87,8 @@ printf("\n");
 printf("\n");
 printf("Digite o valor que deseja DEPOSITAR: ");
 scanf ("%d", &deposito);
-saldo = salo + deposito;
+saldo = saldo + deposito;
+/*saldo+= deposito  */
 
 system ("clear");
 
