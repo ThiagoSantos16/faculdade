@@ -26,7 +26,7 @@ printf("Digite 2 para deposito\n");
 printf("\n");
 printf("\n");
  printf("Opcao:");
-scanf ("%d", opcao);
+scanf ("%d", &opcao);
 
 if(opcao == 1)
 {
@@ -42,7 +42,7 @@ printf("Qual valor que deseja SACAR ?");
 printf("\n");
 printf("\n");
 printf("Valor do saque:");
-scanf("%d", saque);
+scanf("%d", &saque);
 
 if(saque > saldo || saque <0)
 {
@@ -87,7 +87,7 @@ printf("\n");
 printf("\n");
 printf("\n");
 printf("Digite o valor que deseja DEPOSITAR: ");
-scanf ("%d", deposito);
+scanf ("%d", &deposito);
 saldo = saldo + deposito;
 /*saldo+= deposito  */
 
@@ -101,4 +101,4 @@ printf("\n");
 printf("\n");
 printf("\n");
 }
-}
+
