@@ -8,7 +8,7 @@ int main (void)
 float NP1, NP2, PIM, MEDIA;
 
 
-printf (" Digite a nota da NP1 (peso 4)\n");
+printf(" Digite a nota da NP1 (peso 4)\n");
 scanf ("%f",&NP1);
 printf ("Digite a nota da NP2 (peso 4)\n");
 scanf ("%f",&NP2);
