@@ -15,8 +15,8 @@ scanf ("%f",&NP2);
 printf ("Digite a nota do PIM (peso 2)\n");
 scanf ("%f", &PIM);
 
-MEDIA= (NP1 * 4 + np2 * 4 + PIM * 2) / ( 4 + 4 + 2);
-printf ("A media e %.f\ n", MEDIA);
+MEDIA= (NP1 * 4 + NP2 * 4 + PIM * 2) / ( 4 + 4 + 2);
+printf("A media e %.f \n", MEDIA);
 
 if (MEDIA>=7){
 printf("Aluno aprovado.\n");
