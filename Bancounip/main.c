@@ -77,6 +77,7 @@ printf("\n");
 printf("\n");
 }
 if( opcao == 2);
+{
 system("clear");
 printf("\n");
 printf("\n");
