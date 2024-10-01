@@ -43,7 +43,6 @@ printf("\n");
 printf("\n");
 printf("Valor do saque:");
 scanf("%d", &saque);
-}
 if(saque > saldo || saque <0)
 {
 
@@ -56,6 +55,7 @@ printf("     *** Saldo insuficiente!!! ***            ");
 printf("\n");
 printf("\n");
 printf("\n");
+}
 }
 else { 
 saldo= saldo - saque;
