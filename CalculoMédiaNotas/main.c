@@ -2,7 +2,7 @@
 #include<stdlib.h>
 
 
-int main (void)
+int main (void) {
 
 
 float NP1, NP2, PIM, MEDIA;
@@ -25,3 +25,4 @@ printf ("Aluno de exame.\n");
 }
 
 return 0;
+}
