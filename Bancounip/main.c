@@ -24,12 +24,12 @@ printf("\n");
  printf("Digite 1 para saque \n");
 printf("Digite 2 para deposito\n");
 printf("\n");
-printf("\n");
+printf("\n"); 
  printf("Opcao:");
 scanf("%d", &opcao);
 
-if(opcao == 1)
-{
+if 
+(opcao == 1){
 system("clear");
 
 printf("\n");
@@ -43,8 +43,9 @@ printf("\n");
 printf("\n");
 printf("Valor do saque:");
 scanf("%d", &saque);
+  
 if(saque > saldo || saque <0)
-
+{
 
 system("clear");
 printf("\n");
@@ -55,9 +56,11 @@ printf("     *** Saldo insuficiente!!! ***            ");
 printf("\n");
 printf("\n");
 printf("\n");
-
+}
+}
 
 else  
+  {
 saldo= saldo - saque;
 
 printf("\n");
